@@ -17,7 +17,7 @@ def get_sales_data():
     """
     Get sales figures input from the user.
     Run a while loop to collect a valid string of data from the user
-    via the terminal, which must be a string of 6 numbers separeted 
+    via the terminal, which must be a string of 6 numbers separeted
     by commas. The loop will repeatedly request data, until it is valid.
     """
     while True:
@@ -89,7 +89,7 @@ def calculate_surplus_data(sales_row):
 def get_last_5_entries_sales():
     """
     Collects collums of data from sales worksheet, collecting
-    the last 5 entries for each sandwich and returns the data 
+    the last 5 entries for each sandwich and returns the data
     as a list of lists.
     """
     sales = SHEET.worksheet("sales")
@@ -131,5 +131,5 @@ def main():
     update_worksheet(stock_data, "stock")
 
 
-print("Welcome to love sandwiches data Automation")
+print("Welcome to Love Sandwiches Data Automation")
 main()
